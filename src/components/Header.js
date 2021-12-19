@@ -1,5 +1,5 @@
 import React from 'react'
-import pc from '../components/pc.jpg'
+
 
 
 
@@ -7,133 +7,68 @@ import pc from '../components/pc.jpg'
 
 function Header() {
     return (
-        <div className="bg-gray-900 pb-16"> 
-        <div className="flex flex-row-reverse mr-8">
-        <button className="bg-gray-700 m-2 rounded-xl p-2 mt-16 text-gray-300">Mobil</button>
-        <button className="bg-gray-700 m-2 rounded-xl p-2 mt-16 text-gray-300">Oyunlar</button>
-        <button className="bg-gray-700 m-2 rounded-xl p-2 mt-16 text-gray-300">Donanım</button>
-        <button className="bg-gray-700 m-2 rounded-xl p-2 mt-16 text-gray-300">Teknoloji</button>
-        <button className="bg-green-900 m-2 rounded-xl p-2 mt-16 text-green-400 ">Tümü</button>
+        
+        <div className=" "> 
+        <div className='bg-green2 text-gray text-center h-12 pt-3'>
+       <h2 className=''>Daha iyi alışveriş deneyimi için mobil uygulamamızı indir!</h2> 
         </div>
-           <div className="m-2 flex justify-between">
-               <div className="left ">
-                   <img style={{width:420}} className="rounded-xl ml-10 " src={pc} alt="pc"/>
+        <div className='w-2/5 flex ml-10'>
+        <div className='flex-1  border-white mt-24 mx-5 '>
+        
+           <div className='rounded-xl border border-gray_text w-48 h-72'>
+               <div className='relative'>
+               <img className='w-100 h-40 rounded-t-xl' src="https://storage-asset.msi.com/event/2019/mystic-light-rgb-pc/images/partner01.jpg" alt='products'/>
+               <span className='text-center rounded-xl text-gray bg-green h-7 w-16 block absolute top-1.5 left-3.5'>Vitrin</span>
 
                </div>
-               <div className="right mr-10 mt-12">
-                   <h5 className="text-green-400">TEKNOLOJİ</h5>
-                   <h1 className="text-5xl text-white">En Yeni 7 Oyun Monitörü-2021</h1><br/>
-                   <p className="text-xl text-gray-600">Oyun Monitörleri söz konusu olduğunda , herkese uyan tek bir monitör yoktur.Her</p>
-                   <p className="text-xl text-gray-600"> kullanıcı,kullandığı ekipmandan oynadığı oyunlara farklı Monitörlere ihtiyaç duyar.
-
-                   </p>
-                   <br/>
-                   <p className="text-sm text-gray-600">6 AĞUSTOS 2021-22 OKUMA</p>
+               
+               <span className='text-gray_text block ml-3.5 mt-4'>izmir -Konak</span>
+               <h2 className='text-white ml-3.5 mt-2'>Xbox Series X İçin Müthiş Monitör</h2>
+               <span className='text-green ml-3.5 mt-2'>12.000₺</span>
                </div>
+              
+             
+
+
+           </div>
+           <div className='flex-1  border-white mt-24 mx-5 '>
+        
+           <div className='rounded-xl border border-gray_text w-48 h-72'>
+               <div className='relative'>
+               <img className='w-100 h-40 rounded-t-xl' src="https://storage-asset.msi.com/event/2019/mystic-light-rgb-pc/images/partner01.jpg" alt='products'/>
+               <span className='text-center rounded-xl text-gray bg-green h-7 w-16 block absolute top-1.5 left-3.5'>Vitrin</span>
+
+               </div>
+               
+               <span className='text-gray_text block ml-3.5 mt-4'>izmir -Konak</span>
+               <h2 className='text-white ml-3.5 mt-2'>Xbox Series X İçin Müthiş Monitör</h2>
+               <span className='text-green ml-3.5 mt-2'>12.000₺</span>
+               </div>
+              
+             
 
 
            </div>
-           <div className=" flex flex-row ml-8">
-               <div className="w-72  m-3 pt-20 bg-green-900 rounded-xl mt-10">
-                   <div className="bg-gray-800 p-8 rounded-b-xl" >
-                   <h1 className="text-green-400">DONANIM</h1>
-                   <h1 className="text-white text-xl">Xbox Series X için En İyi 6 monitör</h1>
-                   <p className="text-gray-500 leading-5">Bir Xbox series X'niz varsa ve bir monitörde oyun oynamayı tercih ediyorsanız ,özellikle yüksek yenileme hızı arıyorsanız ,aralarında seçim 
-                       yapabileceğiniz birçok seçenek vardır,ancak şuanda piyasada...
-                   </p>
-                   <div className="text-green-400  mt-3 flex flex-row-reverse"> <span className="mr-1">
-                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-</svg></span><span className="mr-3">Devamını oku  </span></div></div>
+           <div className='flex-1  border-white mt-24 mx-5 '>
+        
+           <div className='rounded-xl border border-gray_text w-48 h-72'>
+               <div className='relative'>
+               <img className='w-100 h-40 rounded-t-xl' src="https://storage-asset.msi.com/event/2019/mystic-light-rgb-pc/images/partner01.jpg" alt='products'/>
+               <span className='text-center rounded-xl text-gray bg-green h-7 w-16 block absolute top-1.5 left-3.5'>Vitrin</span>
+
                </div>
-               <div className="w-72  m-3 pt-20 bg-yellow-900 rounded-xl mt-10">
-                   <div className="bg-gray-800 p-8 rounded-b-xl" >
-                   <h1 className="text-yellow-400">MOBİL</h1>
-                   <h1 className="text-white text-xl">Xbox Series X için En İyi 6 monitör</h1>
-                   <p className="text-gray-500 leading-5">Bir Xbox series X'niz varsa ve bir monitörde oyun oynamayı tercih ediyorsanız ,özellikle yüksek yenileme hızı arıyorsanız ,aralarında seçim 
-                       yapabileceğiniz birçok seçenek vardır,ancak şuanda piyasada...
-                   </p>
-                   <div className="text-yellow-400  mt-3 flex flex-row-reverse"> <span className="mr-1">
-                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-</svg></span><span className="mr-3">Devamını oku  </span></div></div>
+               
+               <span className='text-gray_text block ml-3.5 mt-4'>izmir -Konak</span>
+               <h2 className='text-white ml-3.5 mt-2'>Xbox Series X İçin Müthiş Monitör</h2>
+               <span className='text-green ml-3.5 mt-2'>12.000₺</span>
                </div>
-               <div className="w-72  m-3 pt-20 bg-pink-900 rounded-xl mt-10">
-                   <div className="bg-gray-800 p-8 rounded-b-xl" >
-                   <h1 className="text-pink-400">OYUN</h1>
-                   <h1 className="text-white text-xl">Xbox Series X için En İyi 6 monitör</h1>
-                   <p className="text-gray-500 leading-5">Bir Xbox series X'niz varsa ve bir monitörde oyun oynamayı tercih ediyorsanız ,özellikle yüksek yenileme hızı arıyorsanız ,aralarında seçim 
-                       yapabileceğiniz birçok seçenek vardır,ancak şuanda piyasada...
-                   </p>
-                   <div className="text-pink-400  mt-3 flex flex-row-reverse"> <span className="mr-1">
-                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-</svg></span><span className="mr-3">Devamını oku  </span></div></div>
-               </div>
-               <div className="w-72  m-3 pt-20 bg-blue-900 rounded-xl mt-10">
-                   <div className="bg-gray-800 p-8 rounded-b-xl" >
-                   <h1 className="text-blue-400">TEKNOLOJİ</h1>
-                   <h1 className="text-white text-xl">Xbox Series X için En İyi 6 monitör</h1>
-                   <p className="text-gray-500 leading-5">Bir Xbox series X'niz varsa ve bir monitörde oyun oynamayı tercih ediyorsanız ,özellikle yüksek yenileme hızı arıyorsanız ,aralarında seçim 
-                       yapabileceğiniz birçok seçenek vardır,ancak şuanda piyasada...
-                   </p>
-                   <div className="text-blue-400  mt-3 flex flex-row-reverse"> <span className="mr-1">
-                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-</svg></span><span className="mr-3">Devamını oku  </span></div></div>
-               </div>
-               </div>
-               <div className="flex flex-row ml-8">
-               <div className="w-72  m-3 pt-20 bg-green-900 rounded-xl mt-10">
-                   <div className="bg-gray-800 p-8 rounded-b-xl" >
-                   <h1 className="text-green-400">DONANIM</h1>
-                   <h1 className="text-white text-xl">Xbox Series X için En İyi 6 monitör</h1>
-                   <p className="text-gray-500 leading-5">Bir Xbox series X'niz varsa ve bir monitörde oyun oynamayı tercih ediyorsanız ,özellikle yüksek yenileme hızı arıyorsanız ,aralarında seçim 
-                       yapabileceğiniz birçok seçenek vardır,ancak şuanda piyasada...
-                   </p>
-                   <div className="text-green-400  mt-3 flex flex-row-reverse"> <span className="mr-1">
-                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-</svg></span><span className="mr-3">Devamını oku  </span></div></div>
-               </div>
-               <div className="w-72  m-3 pt-20 bg-yellow-900 rounded-xl mt-10">
-                   <div className="bg-gray-800 p-8 rounded-b-xl" >
-                   <h1 className="text-yellow-400">MOBİL</h1>
-                   <h1 className="text-white text-xl">Xbox Series X için En İyi 6 monitör</h1>
-                   <p className="text-gray-500 leading-5">Bir Xbox series X'niz varsa ve bir monitörde oyun oynamayı tercih ediyorsanız ,özellikle yüksek yenileme hızı arıyorsanız ,aralarında seçim 
-                       yapabileceğiniz birçok seçenek vardır,ancak şuanda piyasada...
-                   </p>
-                   <div className="text-yellow-400  mt-3 flex flex-row-reverse"> <span className="mr-1">
-                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-</svg></span><span className="mr-3">Devamını oku  </span></div></div>
-               </div>
-               <div className="w-72  m-3 pt-20 bg-pink-900 rounded-xl mt-10">
-                   <div className="bg-gray-800 p-8 rounded-b-xl" >
-                   <h1 className="text-pink-400">OYUN</h1>
-                   <h1 className="text-white text-xl">Xbox Series X için En İyi 6 monitör</h1>
-                   <p className="text-gray-500 leading-5">Bir Xbox series X'niz varsa ve bir monitörde oyun oynamayı tercih ediyorsanız ,özellikle yüksek yenileme hızı arıyorsanız ,aralarında seçim 
-                       yapabileceğiniz birçok seçenek vardır,ancak şuanda piyasada...
-                   </p>
-                   <div className="text-pink-400  mt-3 flex flex-row-reverse"> <span className="mr-1">
-                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-</svg></span><span className="mr-3">Devamını oku  </span></div></div>
-               </div>
-               <div className="w-72  m-3 pt-20 bg-blue-900 rounded-xl mt-10">
-                   <div className="bg-gray-800 p-8 rounded-b-xl" >
-                   <h1 className="text-blue-400">TEKNOLOJİ</h1>
-                   <h1 className="text-white text-xl">Xbox Series X için En İyi 6 monitör</h1>
-                   <p className="text-gray-500 leading-5">Bir Xbox series X'niz varsa ve bir monitörde oyun oynamayı tercih ediyorsanız ,özellikle yüksek yenileme hızı arıyorsanız ,aralarında seçim 
-                       yapabileceğiniz birçok seçenek vardır,ancak şuanda piyasada...
-                   </p>
-                   <div className="text-blue-400  mt-3 flex flex-row-reverse"> <span className="mr-1">
-                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-</svg></span><span className="mr-3">Devamını oku  </span></div></div>
-               </div>
+              
+             
+
 
            </div>
+           </div>
+           
         </div>
     )
 }

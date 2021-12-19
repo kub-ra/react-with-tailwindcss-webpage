@@ -16,7 +16,7 @@ function App() {
   return (
   
       
-      <div>
+      <div className='bg-gray mb-0'>
       <Router>
           
         
