@@ -5,7 +5,7 @@ import appstore from '../images/appstore.svg'
 
 function Footer() {
     return (
-        <div className='bg-footer_c h-80  mb-0'>
+        <div className='bg-footer_c h-80  mb-0 '>
          <div class="logo mt-10  ">
              <div className='flex justify-center'>
         <Link path="/">

@@ -9,6 +9,7 @@ import {
   
 } from "react-router-dom";
 import Footer from './components/Footer';
+import Text from './components/Text';
 
 
 
@@ -39,6 +40,7 @@ function App() {
 
       <Navbar/>
       <Header/>
+      <Text/>
       <Footer/>
      
       

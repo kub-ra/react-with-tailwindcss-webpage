@@ -14,6 +14,7 @@ module.exports = {
       gray_text:'#72759A'
       
     },
+   
 
   },
   variants: {
