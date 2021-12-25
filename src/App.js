@@ -13,6 +13,7 @@ import Text from './components/Text';
 
 
 
+
 function App() {
   return (
   
@@ -39,7 +40,12 @@ function App() {
       
 
       <Navbar/>
+      <div className='flex'>
       <Header/>
+      
+
+      </div>
+      
       <Text/>
       <Footer/>
      

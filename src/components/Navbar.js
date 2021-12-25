@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
-        <div className="bg-gray  flex justify-between  sticky top-0 ">
+        <div className="bg-gray  flex justify-between z-10 sticky top-0 ">
         
         <div class="logo my-10 ml-24">
             <Link path="/">
@@ -21,6 +21,7 @@ function Navbar() {
         </div>
         
         </div>
+        
     )
 }
 

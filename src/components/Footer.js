@@ -1,7 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Group_77 from '../images/Group_77.png'
-import appstore from '../images/appstore.svg'
+
+import Appstore from '../images/appstore.png'
+import {ReactComponent as GooglePlay} from '../images/google-play.svg'
 
 function Footer() {
     return (
@@ -19,7 +21,10 @@ function Footer() {
         <div className='flex justify-center mb-0'>
             <div className='mt-7 ml-24'>
                 <h2 className='text-green text-xl font-bold'>Şimdi İndir</h2>
-                <img alt='' src={appstore}/>
+                <GooglePlay className='mt-5'/>
+                <img alt='' src={Appstore} className='w-40 mt-2'/>
+              
+
          
 
 
